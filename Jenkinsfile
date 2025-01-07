@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        GIT_REPO = 'https://github.com/your-username/your-repository.git' // Replace with your repository URL
+        GIT_REPO = 'https://github.com/professorchavan/orgdata.git' // Replace with your repository URL
         GIT_BRANCH = 'main' // Replace with your branch name
     }
 
