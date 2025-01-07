@@ -5,8 +5,8 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 git branch: 'main', // Replace 'main' with your branch name
-                    url: 'https://github.com/your-username/your-repository.git',
-                    credentialsId: 'github-credentials-id' // Set up GitHub credentials in Jenkins
+                    url: 'https://github.com/professorchavan/orgdata.git',
+                    credentialsId: 'githubcred' // Set up GitHub credentials in Jenkins
             }
         }
         stage('Build') {
